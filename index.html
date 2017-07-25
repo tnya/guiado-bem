@@ -6,9 +6,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
 	<!-- Link archivo css-->
+	<link rel="stylesheet" href="css/main.css">
 	
 </head>
 <body>
+<!-- menu con las clases BEM -->
+	<header>
+		<ul class="a-menu">
+			<li class="a-menu__item">
+				<a class="a-menu__item__link" href="#">BLOG</a></li>
+			<li class="a-menu__item">
+				<a class="a-menu__item__link" href="#">ABOUT</a></li>
+			<li class="a-menu__item">
+				<a class="a-menu__item__link" href="#">CONTACTO</a></li>
+		</ul>
+	</header>
 
+	<!-- CONTENIDO PRINCIPAL DE LA PAGINA -->
+	<section>
+		<div class="article">
+			<h2 class="article__title">Mermeladas</h2>
+				<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero, culpa, pariatur deserunt velit nisi reiciendis exercitationem. Quaerat, eaque sunt nemo eligendi dolores dolorum, ipsum cupiditate officia, provident beatae facilis!</p>
+				<img class="article__img" src="img/mermeladas pirque.jpg" alt="">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Comida Saludable</h2>
+				<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero, culpa, pariatur deserunt velit nisi reiciendis exercitationem. Quaerat, eaque sunt nemo eligendi dolores dolorum, ipsum cupiditate officia, provident beatae facilis!</p>
+				<img class="article__img" src="img/comida-vegana-230x130.jpg" alt="">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Comida Saludable</h2>
+				<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero, culpa, pariatur deserunt velit nisi reiciendis exercitationem. Quaerat, eaque sunt nemo eligendi dolores dolorum, ipsum cupiditate officia, provident beatae facilis!</p>
+				<img class="article__img" src="img/MIEL-DE-ABEJA-230x130.png" alt="">
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer class="pie">
+		<p class="pie__item--center">
+			Create by Someone
+		</p>
+	</footer>
 </body>
 </html>
